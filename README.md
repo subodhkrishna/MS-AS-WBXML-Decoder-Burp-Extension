@@ -46,6 +46,6 @@ I recommed using the same jar, unless it messes up other extension you installed
 	    Extension file (.py): ms_as_wbxml_decoder.py
 
 
-Spirent SecurityLabs Rocks! kudos to them for letting me OpenSource this code!
+**_Spirent SecurityLabs_ Rocks! kudos to them for letting me OpenSource this code!**
 [![N|Solid](https://www.spirent.com/-/media/logoblack2017-2/logo.svg?la=en&hash=78A1E2634AEF02CDCC6D0B298D7E0078E2E40357)](https://nodesource.com/products/nsolid)
 
