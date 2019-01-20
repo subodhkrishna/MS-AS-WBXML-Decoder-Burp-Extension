@@ -1,4 +1,4 @@
-MS AS WBXML Decoder Burp Extension
+Burp Extension Microsoft ActiveSync WBXML Decoder 
 ==============
 
 A Burp Extension for decoding Microsoft Active-Sync WAP Binary XML (WBXML) Written in Python
