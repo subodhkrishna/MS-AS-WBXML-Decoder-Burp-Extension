@@ -867,7 +867,7 @@ class ASWBXML:
 		page.addToken(0x16, "Total")
 		page.addToken(0x17, "DisplayCc")
 		page.addToken(0x18, "DisplayBcc")
-    page.addToken(0x19, "GalSearchCriterion")
+		page.addToken(0x19, "GalSearchCriterion")
 		self.codePages.append(page)
 		# endregion
 		# endregion
@@ -875,6 +875,9 @@ class ASWBXML:
 	def loadXml(self, strXML):
 		# note xmlDoc has .childNodes and .parentNode
 		self.xmlDoc = xml.dom.minidom.parseString(strXML)
+
+	def getBytes(self, strXML):
+		self.loadXml(strXML)
 
 	def getXml(self):
 		if (self.xmlDoc != None):
@@ -959,3 +962,7 @@ class ASWBXML:
 					currentNode = newNode
 
 		logging.debug("Total bytes dequeued: %d" % wbXMLBytes.bytesDequeued)
+
+	def xml2wbxml(self, body):
+		self.loadXml(strXML)
+

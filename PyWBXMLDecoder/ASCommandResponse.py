@@ -54,6 +54,11 @@ class ASCommandResponse:
 		self.instance.loadBytes(body)
 		return self.instance.getXml()
 
+	def encodeWBXML(self, body):
+		self.instance = ASWBXML()
+		self.instance.xml2wbxml(body)
+		return self.instance.wbxmlBytes
+
 if __name__ == "__main__":
 	import os	
 	logging.basicConfig(level=logging.INFO)
