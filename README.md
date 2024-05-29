@@ -1,9 +1,9 @@
 Burp Extension Microsoft ActiveSync WBXML Decoder 
 ==============
 
-A Burp Extension for decoding Microsoft Active-Sync WAP Binary XML (WBXML) Written in Python
+A Burp Extension for decoding Microsoft Active-Sync WAP Binary XML (WBXML) Written in Python 2.7. (Written for a 1.X version of Burp Suite, not tested in latest version)
 
-Written by Chereddi, Phanikar EMAIL: phanikar DOT chereddi AT spirent.com
+Written by Chereddi, Phanikar EMAIL: pcher003 AT ucr.edu
 
 Added a wrapper arround the below project to extend Burp Suite
 https://github.com/davidpshaw/PyWBXMLDecoder
